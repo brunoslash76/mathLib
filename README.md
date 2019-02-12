@@ -1,17 +1,27 @@
-# Project Title
+# Simple Math Lib
 
-One Paragraph of project description goes here
+This is a math lib just for testing Mocha and Chai
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+This REPO is just some simple TDD example for you to follow.
+
+In the folder **tests**  you will find all tests.
+In the folder **lib** you can find all methods which are been tested.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+You should have a **NodeJS** installed in your machine to run this tests
 
+Mac / Linux users:
 ```
-Give examples
+touch ~/.bash_profile
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
+```
+
+then run the following to check which version 
+```
+nvm ls
 ```
 
 ### Installing
